@@ -1,0 +1,14 @@
+[project]
+name = "wikipedia-word-frequency"
+version = "0.1.0"
+description = "Wikipedia Word-Frequency Dictionary"
+requires-python = ">=3.11"
+dependencies = [
+    "fastapi>=0.100.0",
+    "uvicorn>=0.22.0",
+    "requests>=2.31.0",
+    "beautifulsoup4>=4.12.2",
+    "pytest>=7.3.1",
+    "httpx>=0.24.1",
+    "numpy>=2.2.6",
+]
